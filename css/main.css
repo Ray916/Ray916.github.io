@@ -876,7 +876,7 @@ pre .javascript .function {
 }
 .headband {
   height: 3px;
-  background: #262a30;
+  background: #0684bd;
 }
 .site-meta {
   margin: 0;
@@ -892,7 +892,7 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #fff;
-  background: #262a30;
+  background: #0684bd;
   border-bottom: none;
 }
 .brand:hover {
@@ -1549,7 +1549,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4746eb;
+  background: #c826ff;
 }
 .links-of-blogroll {
   font-size: 13px;
