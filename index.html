@@ -287,7 +287,11 @@
 <p>###常用命令</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo generate</div><div class="line">hexo deploy</div></pre></td></tr></table></figure>
 <p>###遇到问题总结 </p>
-<p>1、在修改_config.yml文件时，注意<code>type: git</code>，冒号后面一定要有空格，其他几个也一样。</p>
+<p>1、在修改_config.yml文件时，注意<code>type: git</code>，冒号后面一定要有空格，其他几个也一样。<br>2、使用next主题时，修改headband的背景颜色：</p>
+<ul>
+<li>修改next/source/css/_schemes/_variables/base.styl第210行的<code>$headband-bg</code>和第224行的<code>$brand-bg</code>；</li>
+<li>相同路径Mist/Muse/Pisces文件夹下面的_brand.styl的第四行<code>backgroud</code>属性。</li>
+</ul>
 
           
         
