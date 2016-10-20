@@ -312,7 +312,7 @@
         
           
             <h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>1、添加path环境变量；<br>2、修改my-default.ini文件里的port, basedir以及datadir并新建相应文件夹；<br>3、管理员权限运行cmd，进入mysql安装文件夹的bin目录下运行命令：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">mysqld --initialize</div><div class="line">mysqld -install/remove</div><div class="line">net start mysql</div><div class="line">mysql -u root -p</div><div class="line">ALTER USER <span class="string">'root'</span>@<span class="string">'localhost'</span> IDENTIFIED BY <span class="string">'new_password'</span></div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">mysqld --initialize</div><div class="line">mysqld -install/remove</div><div class="line">net start mysql</div><div class="line">mysql -u root -p</div><div class="line">ALTER USER <span class="string">'root'</span>@<span class="string">'localhost'</span> IDENTIFIED BY <span class="string">'new_password'</span>;</div></pre></td></tr></table></figure>
 <p>初始化成功后在datadir目录下生成的文件中xxx.err里有root账户的临时密码：<br>2016-10-20T02:18:03.488650Z 1 [Note] A temporary password is generated for root@localhost: <font color="red">_i6Ry0xqIfwL</font></p>
 
           
