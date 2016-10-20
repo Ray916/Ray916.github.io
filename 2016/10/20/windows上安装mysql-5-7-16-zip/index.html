@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="windows,mysql," />
 
 
 
@@ -84,15 +84,19 @@
 
 
 
-<meta name="description" content="内心幻想文艺的工科男">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Ray's 博客">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+<meta name="description" content="注意事项1、添加path环境变量；2、修改my-default.ini文件里的port, basedir以及datadir并新建相应文件夹；3、管理员权限运行cmd，进入mysql安装文件夹的bin目录下运行命令：
+12345mysqld --initializemysqld -install/removenet start mysqlmysql -u root -pALTER USER &apos;roo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="windows上安装mysql-5.7.16.zip">
+<meta property="og:url" content="http://yoursite.com/2016/10/20/windows上安装mysql-5-7-16-zip/index.html">
 <meta property="og:site_name" content="Ray's 博客">
-<meta property="og:description" content="内心幻想文艺的工科男">
+<meta property="og:description" content="注意事项1、添加path环境变量；2、修改my-default.ini文件里的port, basedir以及datadir并新建相应文件夹；3、管理员权限运行cmd，进入mysql安装文件夹的bin目录下运行命令：
+12345mysqld --initializemysqld -install/removenet start mysqlmysql -u root -pALTER USER &apos;roo">
+<meta property="og:updated_time" content="2016-10-20T02:44:06.281Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ray's 博客">
-<meta name="twitter:description" content="内心幻想文艺的工科男">
+<meta name="twitter:title" content="windows上安装mysql-5.7.16.zip">
+<meta name="twitter:description" content="注意事项1、添加path环境变量；2、修改my-default.ini文件里的port, basedir以及datadir并新建相应文件夹；3、管理员权限运行cmd，进入mysql安装文件夹的bin目录下运行命令：
+12345mysqld --initializemysqld -install/removenet start mysqlmysql -u root -pALTER USER &apos;roo">
 
 
 
@@ -113,9 +117,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/10/20/windows上安装mysql-5-7-16-zip/"/>
 
-  <title> 归档 | Ray's 博客 </title>
+  <title> windows上安装mysql-5.7.16.zip | Ray's 博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -136,7 +140,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,140 +218,126 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 3 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/10/20/windows上安装mysql-5-7-16-zip/" itemprop="url">
-              
-                <span itemprop="name">windows上安装mysql-5.7.16.zip</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-10-20T10:30:53+08:00"
-              content="2016-10-20" >
-          10-20
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/10/19/hexo-github/" itemprop="url">
-              
-                <span itemprop="name">Hexo+Github制作我的博客</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-10-19T14:56:57+08:00"
-              content="2016-10-19" >
-          10-19
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/09/07/hello-world/" itemprop="url">
-              
-                <span itemprop="name">Hello World</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-09-07T14:37:09+08:00"
-              content="2016-09-07" >
-          09-07
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-  </section>
 
   
+  
 
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                windows上安装mysql-5.7.16.zip
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-10-20T10:30:53+08:00" content="2016-10-20">
+              2016-10-20
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>1、添加path环境变量；<br>2、修改my-default.ini文件里的port, basedir以及datadir并新建相应文件夹；<br>3、管理员权限运行cmd，进入mysql安装文件夹的bin目录下运行命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">mysqld --initialize</div><div class="line">mysqld -install/remove</div><div class="line">net start mysql</div><div class="line">mysql -u root -p</div><div class="line">ALTER USER <span class="string">'root'</span>@<span class="string">'localhost'</span> IDENTIFIED BY <span class="string">'new_password'</span></div></pre></td></tr></table></figure>
+<p>初始化成功后在datadir目录下生成的文件中xxx.err里有root账户的临时密码：<br>2016-10-20T02:18:03.488650Z 1 [Note] A temporary password is generated for root@localhost: <font color="red">_i6Ry0xqIfwL</font></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/windows/" rel="tag">#windows</a>
+          
+            <a href="/tags/mysql/" rel="tag">#mysql</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/10/19/hexo-github/" rel="next" title="Hexo+Github制作我的博客">
+                <i class="fa fa-chevron-left"></i> Hexo+Github制作我的博客
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -355,6 +345,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -374,8 +368,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/me.jpg"
@@ -436,6 +439,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#注意事项"><span class="nav-number">1.</span> <span class="nav-text">注意事项</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -539,11 +553,9 @@
 
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
 
 
   
